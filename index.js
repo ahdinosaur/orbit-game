@@ -121,7 +121,7 @@ ecs.system([Body, Playable], function (e) {
   if (keys.includes('ArrowLeft')) {
     e.body.rotVel -= 0.002
   }
-  if (keys.includes('Enter') || keys.includes(' ')) {
+  if (keys.includes('Enter') || keys.includes(' ') || keys.includes('ArrowUp')) {
     e.rocket.active = true
   } else {
     e.rocket.active = false
