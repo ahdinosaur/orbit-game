@@ -10,6 +10,7 @@ _work in progress_
 
 - [rocket sprite](https://openclipart.org/detail/28806/a-cartoon-moon-rocket)
 - [planet sprite](https://keizgon.deviantart.com/art/Planet-X-Ice-297584918)
+- [space tile](http://a1star.com/star-space-background-3.php)
 
 ## license
 

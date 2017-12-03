@@ -4,7 +4,7 @@ const Pixi = require('pixi.js')
 var ecs = Ecs()
 
 var app = new Pixi.Application(window.innerWidth, window.innerHeight, {
-  backgroundColor: 0x1099bb
+  transparent: true
 })
 
 app.renderer.autoResize = true
