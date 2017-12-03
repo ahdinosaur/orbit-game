@@ -4,7 +4,7 @@ const Pixi = require('pixi.js')
 var ecs = Ecs()
 
 var app = new Pixi.Application(window.innerWidth, window.innerHeight, {
-  backgroundColor: 0x1099bb
+  transparent: true
 })
 
 app.renderer.autoResize = true
@@ -121,7 +121,7 @@ ecs.system([Body, Playable], function (e) {
   if (keys.includes('ArrowLeft')) {
     e.body.rotVel -= 0.002
   }
-  if (keys.includes('Enter') || keys.includes(' ')) {
+  if (keys.includes('Enter') || keys.includes(' ') || keys.includes('ArrowUp')) {
     e.rocket.active = true
   } else {
     e.rocket.active = false
